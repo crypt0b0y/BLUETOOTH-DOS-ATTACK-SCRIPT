@@ -22,7 +22,7 @@ $ python3 Bluetooth-DOS-Attack.py
 ### Note
 <p>The script works only with Linux systems. It tested on Kali Linux</p>
 <p>You must have "l2ping" util on your linux machine (it installed as default on Kali Linux)</p>
---
+---
 ## Using
 <p>First of all, you must scan network for Bluetooth devises. For example, you can use hcitool</p>
 ```
