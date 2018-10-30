@@ -16,10 +16,6 @@ THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS
 <p>You must have "l2ping" util on your linux machine (it installed as default on Kali Linux)</p>
 
 ```
-<p></p>
-<p></p>
-<p></p>
-<p></p>
 apt update
 apt install python3
 git clone https://github.com/jieggiI/BLUETOOTH-DOS-ATTACK-SCRIPT.git
