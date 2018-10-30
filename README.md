@@ -53,11 +53,11 @@ C1:D2:E3:F4:G5      Some Bluetooth device
 <table align="center">
   <td>
     Threads
-    <tr>123</tr>
+    
   </td>
   <td>
     Ping
   </td>
-  <tr>345</tr>
+  
 </table>
 
