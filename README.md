@@ -1,4 +1,4 @@
-<h1 align="center" size="10px">Bluetooth DOS-Attack Script</h1>
+<h1 align="center">Bluetooth DOS-Attack Script</h1>
 <p align="center">
   <a href="https://python.org">
     <img src="https://img.shields.io/pypi/pyversions/Django.svg">
@@ -49,7 +49,7 @@ C1:D2:E3:F4:G5      Some Bluetooth device
 
 ## Other
 
-<p>according to my calculations, if ping bigger than 500, Bluetooh device will turn off / disconnect.</p>
+<p>According to my calculations, if ping bigger than 500, Bluetooh device will turn off / disconnect.</p>
 <table align="center">
   <td>
     Threads
@@ -60,4 +60,10 @@ C1:D2:E3:F4:G5      Some Bluetooth device
   </td>
   
 </table>
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 
