@@ -1,1 +1,0 @@
-apt install l2ping
