@@ -28,8 +28,7 @@ $ python3 Bluetooth-DOS-Attack.py
 
 ```
 $ sudo apt update
-$ sudo apt install python3
-$ sudo git clone https://github.com/jieggiI/BLUETOOTH-DOS-ATTACK-SCRIPT.git
-$ cd Bluetooth-DOS-attack-script
-$ python3 Bluetooth-DOS-Attack.py
+$ apt install hcitool
+$ sudo service bluetooth start
+$ hcitool scan
 ```
