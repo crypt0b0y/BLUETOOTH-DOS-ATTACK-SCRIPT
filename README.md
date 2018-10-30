@@ -50,20 +50,11 @@ C1:D2:E3:F4:G5      Some Bluetooth device
 ## Other
 
 <p>According to my calculations, if ping bigger than 500, Bluetooh device will turn off / disconnect.</p>
-<table align="center">
-  <td>
-    Threads
-    
-  </td>
-  <td>
-    Ping
-  </td>
-  
-</table>
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+
+| Left-Aligned   | Center Aligned  |
+| :------------: |:---------------:|
+| col 3 is       | some wordy text |
+| col 2 is       | centered        |
+| zebra stripes  | are neat        |
 
