@@ -33,9 +33,9 @@ $ sudo service bluetooth start
 $ hcitool scan
 ```
 <p>Output will be like:</p>
+
 ```
 A1:B2:C3:D6:E7      Xiaomi portable speaker
 B1:C2:D3:E4:F5      iPhone(Toivo)
 C1:D2:E3:F4:G5      Some Bluetooth device
 ```
-
