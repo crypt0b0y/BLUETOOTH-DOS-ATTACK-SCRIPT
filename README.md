@@ -47,3 +47,13 @@ C1:D2:E3:F4:G5      Some Bluetooth device
 2. "Packages size" - size of the packages, that will be sent to the target. 600 is optimal.
 3. "Threads count" - number of threads, that will send packages to the target at the same time. 50 is optimal.
 
+## Other
+
+<p>according to my calculations, if ping bigger than 500, Bluetooh device will turn off / disconnect.</p>
+<table>
+<td>
+  test
+  
+  </td>
+</table>
+
