@@ -20,11 +20,11 @@ $ cd Bluetooth-DOS-attack-script
 $ python3 Bluetooth-DOS-Attack.py
 ```
 ### Note
-<p>The script works only with Linux systems. It tested on Kali Linux</p>
-<p>You must have "l2ping" util on your linux machine (it installed as default on Kali Linux)</p>
+<p>The script works only with Linux systems. It tested on Kali Linux.</p>
+<p>You must have "l2ping" util on your linux machine (it installed as default on Kali Linux).</p>
 
 ## Using
-<p>First of all, you must scan network for Bluetooth devises. For example, you can use "hcitool"</p>
+<p>First of all, you must scan network for Bluetooth devises. For example, you can use "hcitool".</p>
 
 ```
 $ sudo apt update
@@ -39,3 +39,5 @@ A1:B2:C3:D6:E7      Xiaomi portable speaker
 B1:C2:D3:E4:F5      iPhone(Toivo)
 C1:D2:E3:F4:G5      Some Bluetooth device
 ```
+<p>Then you copy target addres (for example "A1:B2:C3:D6:E7") and paste it in "Target addr > "</p>
+
