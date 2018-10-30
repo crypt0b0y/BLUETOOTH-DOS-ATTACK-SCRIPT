@@ -45,16 +45,21 @@ C1:D2:E3:F4:G5      Some Bluetooth device
 
 1. "Target addr" - addres of your target (Check info upper).
 2. "Packages size" - size of the packages, that will be sent to the target. 600 is optimal.
-3. "Threads count" - number of threads, that will send packages to the target at the same time. 50 is optimal.
+3. "Threads count" - number of threads, that will send packages to the target at the same time. 50 is optimal (check table below, to understand, what number of threads you need).
 
 ## Other
 
-<p>According to my calculations, if ping bigger than 500, Bluetooh device will turn off / disconnect.</p>
+<p>According to my calculations, if ping bigger than 500ms, Bluetooh device will turn off / disconnect.</p>
 
 
 | Threads count| Ping  |
 | :-----: |:----------:|
+| 1       | waiting... |
+| 10      | waiting... |
+| 20      | waiting... |
 | 50      | 800 - 1000 |
 | 100     | waiting... |
 | 200     | waiting... |
-
+| 500     | waiting... |
+| 1000    | waiting... |
+| 20000   | waiting... |
