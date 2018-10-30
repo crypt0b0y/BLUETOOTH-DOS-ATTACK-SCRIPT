@@ -11,9 +11,6 @@
 
 THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS SOFTWARE AT YOUR OWN RISK. THE USE IS COMPLETE RESPONSIBILITY OF THE END-USER. THE DEVELOPERS ASSUME NO LIABILITY AND ARE NOT RESPONSIBLE FOR ANY MISUSE OR DAMAGE CAUSED BY THIS PROGRAM.
 ## Installing
-### Note
-<p>The script works only with Linux systems. It tested on Kali Linux</p>
-<p>You must have "l2ping" util on your linux machine (it installed as default on Kali Linux)</p>
 
 ```
 $ sudo apt update
@@ -22,3 +19,7 @@ $ sudo git clone https://github.com/jieggiI/BLUETOOTH-DOS-ATTACK-SCRIPT.git
 $ cd Bluetooth-DOS-attack-script
 $ python3 Bluetooth-DOS-Attack.py
 ```
+### Note
+<p>The script works only with Linux systems. It tested on Kali Linux</p>
+<p>You must have "l2ping" util on your linux machine (it installed as default on Kali Linux)</p>
+
