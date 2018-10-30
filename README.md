@@ -40,7 +40,9 @@ B1:C2:D3:E4:F5      iPhone(Toivo)
 C1:D2:E3:F4:G5      Some Bluetooth device
 ```
 <p>Then you copy target addres (for example "A1:B2:C3:D6:E7") and paste it in "Target addr".</p>
+
 ## Manual
+
 1. "Target addr" - addres of your target (Check info upper).
 2. "Packages size" - size of the packages, that will be sent to the target. 600 is optimal.
 3. "Threads count" - number of threads, that will send packages to the target at the same time. 50 is optimal.
