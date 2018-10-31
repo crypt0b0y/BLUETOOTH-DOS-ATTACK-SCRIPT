@@ -52,7 +52,7 @@ def main():
     print('[*] Building threads...\n')
 
     for i in range(0, threads_count):
-        print('[*]Built thread №' + str(i + 1))
+        print('[*] Built thread №' + str(i + 1))
         threading.Thread(target=DOS, args=[str(target_addr), str(packages_size)]).start()
     
     print('[*] Built all threads...')
