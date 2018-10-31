@@ -52,14 +52,14 @@ C1:D2:E3:F4:G5      Some Bluetooth device
 <p>According to my calculations, if ping bigger than 500ms, Bluetooh device will turn off / disconnect.</p>
 
 
-| Threads count| Ping  |
-| :-----: |:----------:|
-| 1       | waiting... |
-| 10      | waiting... |
-| 20      | waiting... |
-| 50      | 800 - 1000 |
-| 100     | waiting... |
-| 200     | waiting... |
-| 500     | waiting... |
-| 1000    | waiting... |
-| 20000   | waiting... |
+|  Packages size | Threads count| Ping, ms  |
+|:--------------:|:-----: |:----------:|
+|  600           | 1       | 8 - 9      |
+|  600           | 10      | 37 - 38    |
+|  600           | 20      | 75 - 90    |
+|  600           | 50      | 180 - 200  |
+|  600           | 100     | 375 - 400  |
+|  600           | 200     | 750 - 800  |
+|  600           | 500     | 1970 - 1975 |
+|  600           | 1000    | 3370 - 3385 |
+|  600           | 20000   |   |
