@@ -22,7 +22,7 @@ $ cd BLUETOOTH-DOS-ATTACK-SCRIPT/
 $ python3 Bluetooth-DOS-Attack.py
 ```
 ### Note
-<p>The script works only with Linux systems. It tested on Kali Linux.</p>
+<p>The script works only with Linux systems.</p>
 <p>You must have "l2ping" util on your linux machine (it installed as default on Kali Linux).</p>
 
 ## Using
