@@ -47,14 +47,14 @@ C1:D2:E3:F4:G5      Some Bluetooth device
 2. "Packages size" - size of the packages, that will be sent to the target. 600 is optimal.
 3. "Threads count" - number of threads, that will send packages to the target at the same time. Check the table below, to find optimal value.
 
-|  Packages size | Threads count| Ping, ms  | Distance, meters |
-|:--------------:|:-----: |:----------:|:---------------------:|
-|  600           | 1       | 8 - 9      |0,3|
-|  600           | 10      | 37 - 38    |0,3|
-|  600           | 20      | 75 - 90    |0,3|
-|  600           | 50      | 180 - 200  |0,3|
-|  600           | 100     | 375 - 400  |0,3|
-|  600           | 200     | 750 - 800  |0,3|
-|  600           | 500     | 1970 - 1975 |0,3|
-|  600           | 1000    | 3370 - 3385 |0,3|
-|  600           | 1000+   | Couldn't calculate  |0,3|
+|  Packages size | Threads count| Ping, ms  | Distance, meters | Time waited, sec  | Device |
+|:--------------:|:-----: |:------------:|:--------------------:|:----------------:|:------:|
+|  600           | 1       | 9           |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 10      | 38          |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 20      | 78          |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 50      | 229         |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 100     | 413         |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 200     | 806         |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 500     | 1961        |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 1000    | 6621        |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 1000+   | Couldn't calculate  |0,3           |           5      |Xiaomi Mi Portable Bluetooth Speaker|
