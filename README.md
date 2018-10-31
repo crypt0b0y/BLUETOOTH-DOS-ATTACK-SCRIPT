@@ -39,7 +39,7 @@ A1:B2:C3:D6:E7      Xiaomi portable speaker
 B1:C2:D3:E4:F5      iPhone(Toivo)
 C1:D2:E3:F4:G5      Some Bluetooth device
 ```
-<p>Then you copy target addres (for example "A1:B2:C3:D6:E7") and paste it in "Target addr".</p>
+<p>Then copy target addres (for example "A1:B2:C3:D6:E7") and paste it in "Target addr".</p>
 
 ## Manual
 
