@@ -6,7 +6,7 @@
 </p>
 <p align="center">Script for quick and easy DOS-attacks on bluetooth devices for pentest purposes</p>
 
-![screenshot](hhttps://github.com/jieggiI/BLUETOOTH-DOS-ATTACK-SCRIPT/blob/master/screenshots/1.png)
+![screenshot](https://github.com/jieggiI/BLUETOOTH-DOS-ATTACK-SCRIPT/blob/master/screenshots/1.png)
 
 ## Disclaimer
 <p align="center">This project was created only for good purposes and personal use.</p>
