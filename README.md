@@ -67,4 +67,4 @@ C1:D2:E3:F4:G5      Some Bluetooth device
 
 ## What happens to the target device
 
-<p>I can't say about all devices, but device I tested just turned off./p>
+<p>I can't say about all devices, but device I tested just turned off.</p>
