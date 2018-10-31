@@ -16,7 +16,7 @@ THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS
 $ sudo apt update
 $ sudo apt install python3
 $ sudo git clone https://github.com/jieggiI/BLUETOOTH-DOS-ATTACK-SCRIPT.git
-$ cd Bluetooth-DOS-attack-script
+$ cd BLUETOOTH-DOS-ATTACK-SCRIPT/
 $ python3 Bluetooth-DOS-Attack.py
 ```
 ### Note
