@@ -63,3 +63,7 @@ C1:D2:E3:F4:G5      Some Bluetooth device
 |  600           | 500     | 1961        |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
 |  600           | 1000    | 6621        |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
 |  600           | 1000+   | Couldn't calculate  |0,3           |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+
+## What happens to the target device
+
+<p>I can't say about all devices, but device that I was testing, just turned off</p>
