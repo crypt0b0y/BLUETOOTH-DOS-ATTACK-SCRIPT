@@ -38,6 +38,18 @@ Package Size: Size of the packages to be sent to the target (600 is optimal).
 
 Threads Count: Number of threads that simultaneously send packages to the target. Optimal value can be found in the provided table.
 
+|  Packages size | Threads count| Ping, ms  | Distance, meters | Time waited, sec  | Device |
+|:--------------:|:-----: |:------------:|:--------------------:|:----------------:|:------:|
+|  600           | 1       | 9           |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 10      | 38          |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 20      | 78          |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 50      | 229         |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 100     | 413         |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 200     | 806         |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 500     | 1961        |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 1000    | 6621        |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+|  600           | 1000+   | Couldn't calculate  |0,3           |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+
 ## What Happens to the Target Device
 
 While I can't speak for all devices, the device I tested typically just turned off.
