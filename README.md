@@ -24,8 +24,8 @@ $ python3 Bluetooth-DOS-Attack.py
 <p>You must have "l2ping" and "hcitool" util on your linux machine (it installed as default on Kali Linux).</p>
 
 ## It tested on
-Kali Linux as attacker, and Xiaomi Portable Bluetooth Speaker as target
-Raspberry pi w zero as attacker, and Redmi Buds Lite as target
+<p>Kali Linux as attacker, and Xiaomi Portable Bluetooth Speaker as target</p>p
+<p></p>Raspberry pi w zero as attacker, and Redmi Buds Lite as target</p>
 
 ## Manual
 
