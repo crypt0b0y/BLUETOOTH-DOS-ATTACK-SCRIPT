@@ -27,6 +27,7 @@ This script is designed to work only on Linux systems.You must have "l2ping" and
 ## Tested on
 
 Kali Linux as attacker, and Xiaomi Portable Bluetooth Speaker as target, 
+
 Raspberry Pi W Zero as attacker, and Redmi Buds Lite as target
 
 ## Manual
