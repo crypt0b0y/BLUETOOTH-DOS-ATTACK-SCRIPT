@@ -25,6 +25,7 @@ $ python3 Bluetooth-DOS-Attack.py
 
 ## It tested on
 Kali Linux as attacker, and Xiaomi Portable Bluetooth Speaker as target
+Raspberry pi w zero as attacker, and Redmi Buds Lite as target
 
 ## Manual
 
