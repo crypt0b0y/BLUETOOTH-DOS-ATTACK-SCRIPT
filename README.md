@@ -6,8 +6,6 @@
 </p>
 <p align="center">Script for quick and easy DOS-attacks on bluetooth devices for pentest purposes</p>
 
-![screenshot](https://github.com/jieggiI/BLUETOOTH-DOS-ATTACK-SCRIPT/blob/master/screenshots/1.png)
-
 ## Disclaimer
 <p align="center">This project was created only for good purposes and personal use.</p>
 
@@ -23,33 +21,14 @@ $ python3 Bluetooth-DOS-Attack.py
 ```
 ### Note
 <p>The script works only with Linux systems.</p>
-<p>You must have "l2ping" util on your linux machine (it installed as default on Kali Linux).</p>
-<p>YOU MUST SCAN AND ATTACK BEFORE SOMEONE CONNECT TO THE TARGET!!!</p>
+<p>You must have "l2ping" and "hcitool" util on your linux machine (it installed as default on Kali Linux).</p>
 
 ## It tested on
 Kali Linux as attacker, and Xiaomi Portable Bluetooth Speaker as target
 
-## Using
-<p>First of all, you must scan network for Bluetooth devises. For example, you can use "hcitool".</p>
-
-```
-$ sudo apt update
-$ apt install hcitool
-$ sudo service bluetooth start
-$ hcitool scan
-```
-<p>Output will be like:</p>
-
-```
-A1:B2:C3:D6:E7      Xiaomi portable speaker
-B1:C2:D3:E4:F5      iPhone(Toivo)
-C1:D2:E3:F4:G5      Some Bluetooth device
-```
-<p>Then copy target addres (for example "A1:B2:C3:D6:E7") and paste it in "Target addr".</p>
-
 ## Manual
 
-1. "Target addr" - addres of your target (Check info above).
+1. "Target id or mac" - id or mac address displayed after scanning.
 2. "Packages size" - size of the packages, that will be sent to the target. 600 is optimal.
 3. "Threads count" - number of threads, that will send packages to the target at the same time. I used 500 threads, and that was enough. Check the table below, to find optimal value.
 
