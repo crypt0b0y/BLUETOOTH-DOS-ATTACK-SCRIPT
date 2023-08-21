@@ -1,50 +1,41 @@
-<h1 align="center">Bluetooth DOS-Attack Script</h1>
-<p align="center">
-  <a href="https://python.org">
-    <img src="https://img.shields.io/pypi/pyversions/Django.svg">
-  </a>
-</p>
-<p align="center">Script for quick and easy DOS-attacks on bluetooth devices for pentest purposes</p>
+# Bluetooth DOS-Attack Script
+
+![Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
+
+Script for conducting DOS-attacks on Bluetooth devices for pentest purposes.
 
 ## Disclaimer
-<p align="center">This project was created only for good purposes and personal use.</p>
 
-THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS SOFTWARE AT YOUR OWN RISK. THE USE IS COMPLETE RESPONSIBILITY OF THE END-USER. THE DEVELOPERS ASSUME NO LIABILITY AND ARE NOT RESPONSIBLE FOR ANY MISUSE OR DAMAGE CAUSED BY THIS PROGRAM.
-## Installing
+This project was created for educational purposes and personal use only.
 
-```
+**DISCLAIMER:** This software is provided "as is" without any warranty. Usage is at your own risk. The developers assume no liability for any misuse or damage caused by this program.
+
+## Installation
+
+```shell
 $ sudo apt update
 $ sudo apt install python3
 $ sudo git clone https://github.com/jieggiI/BLUETOOTH-DOS-ATTACK-SCRIPT.git
 $ cd BLUETOOTH-DOS-ATTACK-SCRIPT/
 $ python3 Bluetooth-DOS-Attack.py
 ```
-### Note
-<p>The script works only with Linux systems.</p>
-<p>You must have "l2ping" and "hcitool" util on your linux machine (it installed as default on Kali Linux).</p>
 
-## It tested on
-<p>Kali Linux as attacker, and Xiaomi Portable Bluetooth Speaker as target</p>
-<p></p>Raspberry pi w zero as attacker, and Redmi Buds Lite as target</p>
+## Note
+
+This script is designed to work only on Linux systems.You must have "l2ping" and "hcitool" utilities on your Linux machine (they are installed by default on Kali Linux).
+
+## Tested on
+
+Kali Linux as attacker, and Xiaomi Portable Bluetooth Speaker as targetRaspberry Pi W Zero as attacker, and Redmi Buds Lite as target
 
 ## Manual
 
-1. "Target id or mac" - id or mac address displayed after scanning.
-2. "Packages size" - size of the packages, that will be sent to the target. 600 is optimal.
-3. "Threads count" - number of threads, that will send packages to the target at the same time. I used 500 threads, and that was enough. Check the table below, to find optimal value.
+Target ID or MAC: ID or MAC address displayed after scanning.
 
-|  Packages size | Threads count| Ping, ms  | Distance, meters | Time waited, sec  | Device |
-|:--------------:|:-----: |:------------:|:--------------------:|:----------------:|:------:|
-|  600           | 1       | 9           |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
-|  600           | 10      | 38          |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
-|  600           | 20      | 78          |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
-|  600           | 50      | 229         |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
-|  600           | 100     | 413         |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
-|  600           | 200     | 806         |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
-|  600           | 500     | 1961        |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
-|  600           | 1000    | 6621        |0,3                   |           5      |Xiaomi Mi Portable Bluetooth Speaker|
-|  600           | 1000+   | Couldn't calculate  |0,3           |           5      |Xiaomi Mi Portable Bluetooth Speaker|
+Package Size: Size of the packages to be sent to the target (600 is optimal).
 
-## What happens to the target device
+Threads Count: Number of threads that simultaneously send packages to the target. Optimal value can be found in the provided table.
 
-<p>I can't say about all devices, but device I tested just turned off.</p>
+## What Happens to the Target Device
+
+While I can't speak for all devices, the device I tested typically just turned off.
